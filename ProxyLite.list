@@ -30,6 +30,7 @@ IP-CIDR,142.250.0.0/16,no-resolve
 # DOMAIN-KEYWORD,roblox
 
 # 域名后缀匹配-其他网站
+DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,v2board.com
 DOMAIN-SUFFIX,hostloc.com
 DOMAIN-SUFFIX,polymarket.com
