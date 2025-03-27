@@ -28,6 +28,7 @@ IP-CIDR,142.250.0.0/16,no-resolve
 
 # 域名关键字匹配
 # DOMAIN-KEYWORD,roblox
+DOMAIN-KEYWORD,vanced
 
 # 域名后缀匹配-其他网站
 DOMAIN-SUFFIX,wikipedia.org
@@ -58,7 +59,7 @@ DOMAIN-SUFFIX,browserleaks.net
 DOMAIN-SUFFIX,surfsharkdns.com
 DOMAIN-SUFFIX,llgjc1.com
 DOMAIN-SUFFIX,qichiyu.com
-DOMAIN-SUFFIX,vanced.to
+
 
 DOMAIN-SUFFIX,polivera.ai
 DOMAIN-SUFFIX,asiassn.com
