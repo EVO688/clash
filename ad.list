@@ -1,1 +1,4 @@
-update.mistat.xiaomi.com
+# 自定义屏蔽更新及广告
+# 
+DOMAIN,update.mistat.xiaomi.com
+DOMAIN,update.miui.com
