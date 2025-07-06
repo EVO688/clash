@@ -1,17 +1,17 @@
-# NAME: AdvertisingMiTV
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:17:52
-# DOMAIN: 165
-# TOTAL: 165
-DOMAIN,519332da.rtc.youme.im
-DOMAIN,86file.megajoy.com
-DOMAIN,86get.joy.cn
-DOMAIN,86log.joy.cn
-DOMAIN,a.baidu.com
-DOMAIN,a.cctv.com
-DOMAIN,a.cntv.cn
-DOMAIN,ad.cctv.com
+! NAME: AdvertisingMiTV
+! AUTHOR: blackmatrix7
+! REPO: https://github.com/blackmatrix7/ios_rule_script
+! UPDATED: 2025-06-06 09:17:52
+! DOMAIN: 165
+! TOTAL: 165
+||519332da.rtc.youme.im^
+||86file.megajoy.com^
+||86get.joy.cn^
+||86log.joy.cn^
+||a.baidu.com^
+||a.cctv.com^
+||a.cntv.cn^
+||ad.cctv.com^
 DOMAIN,ad.doubleclick.net
 DOMAIN,ad.hpplay.cn
 DOMAIN,ad.mi.com
