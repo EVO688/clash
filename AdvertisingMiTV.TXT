@@ -104,6 +104,7 @@
 ||logonext.tv.kuyun.com
 ||lstat.youku.com
 ||ma.baidu.com
+||market.xiaomi.com
 ||metok.sys.miui.com
 ||milink.pandora.xiaomi.com
 ||misc.in.duokanbox.com
