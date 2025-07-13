@@ -4,26 +4,26 @@
 ! UPDATED: 2025-06-06 09:17:52
 ! DOMAIN: 165
 ! TOTAL: 165
-||folder.adfuture.cn
-||folder.adsunflower.com
-||bigdata.adsunflower.com
-||bigdata.adfuture.cn
-||adfuture.cn
-||adsunflower.com
-||adinfo.ra1.xlmc.sec.miui.com
-||update.mistat.xiaomi.com
-||update.miui.com
-||519332da.rtc.youme.im
-||86file.megajoy.com
-||86get.joy.cn
-||86log.joy.cn
-||a.baidu.com
-||a.cctv.com
-||a.cntv.cn
-||ad.cctv.com
-||ad.doubleclick.net
-||ad.hpplay.cn
-||ad.mi.com
+||folder.adfuture.cn^
+||folder.adsunflower.com^
+||bigdata.adsunflower.com^
+||bigdata.adfuture.cn^
+||adfuture.cn^
+||adsunflower.com^
+||adinfo.ra1.xlmc.sec.miui.com^
+||update.mistat.xiaomi.com^
+||update.miui.com^
+||519332da.rtc.youme.im^
+||86file.megajoy.com^
+||86get.joy.cn^
+||86log.joy.cn^
+||a.baidu.com^
+||a.cctv.com^
+||a.cntv.cn^
+||ad.cctv.com^
+||ad.doubleclick.net^
+||ad.hpplay.cn^
+||ad.mi.com^
 ||ad.xiaomi.com
 ||ad1.xiaomi.com
 ||adc.hpplay.cn
