@@ -115,8 +115,8 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 新国负载均衡 = load-balance, 新国节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
 美国负载均衡 = load-balance, 美国节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 # --------------------------------
-# 兜底策略后备
-兜底后备策略 = fallback, 韩日自动场景,甲骨自动场景,香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新国自动场景, 美国自动场景, interval = 60, max-timeout = 2000, img-url = https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
+# 兜底策略后备------香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新国自动场景, 美国自动场景,
+兜底后备策略 = fallback, 韩日自动场景,甲骨自动场景, interval = 60, max-timeout = 2000, img-url = https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
 [Rule]
 # Local Rule
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,IP-CIDR6,IP-ASN
