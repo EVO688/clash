@@ -32,22 +32,22 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 
 [Remote Filter]
 
-🔝 韩日新🐢 = NameRegex, FilterKey = "^(?=.*(?i)(KR Oracle|JP Oracle|SG Oracle))^((?!(?i)(IPv6))).*$"
-🫰 韩日新🐢 = NameRegex, FilterKey = "^(?=.*(?i)(KR Oracle|JP Oracle|SG Oracle))^((?!(?i)(IPv6))).*$"
-🫰 全部🐢 = NameRegex, FilterKey = "^(?=.*(?i)(Oracle|甲骨文)).*$"
-🫰 游戏🕹️ = NameRegex, FilterKey = "^(?=.*((?i)游戏|🎮|\b(GAME)(\d+)?\b))(?!.*(?i)(回国|校园|甲骨文|\b(Oracle|IPv6)\b)).*$"
-🫰 AI 🏡 = NameRegex, FilterKey = "^(.*)^((?!(Oracle|甲骨文|IPv6|ipv6|香港|HK|🇭🇰)).)*$"
-🔝 香港 = NameRegex, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|回国|校园|游戏|🎮|\b(GAME|GPT|IEPL)\b)).*$"
-🔝 台湾 = NameRegex, FilterKey = "^(?=.*((?i)🇹🇼|台湾|(\b(TW|TWN|Taiwan|Tai)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|回国|校园|游戏|🎮|\b(GAME|GPT|IEPL)\b)).*$"
-🔝 日本 = NameRegex, FilterKey = "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|JPN|Japan|Tokyo)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|回国|校园|游戏|🎮|\b(GAME|GPT|IEPL)\b)).*$"
-🔝 韩国 = NameRegex, FilterKey = "^(?=.*((?i)🇰🇷|韩国|韓|首尔|春川|(\b(KR|KOR|Korea|Seoul)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|回国|校园|游戏|🎮|\b(GAME|GPT|IEPL)\b)).*$"
-🔝 新加坡 = NameRegex, FilterKey = "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|SGP|Singapore|Sing)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|回国|校园|游戏|🎮|\b(GAME|GPT|IEPL)\b)).*$"
-🔝 美国 = NameRegex, FilterKey = "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|纽约|(\b(US|USA|United States|America|LosAngeles|NewYork)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|回国|校园|游戏|🎮|\b(GAME|GPT|IEPL)\b)).*$"
-🫰 全球节点 = NameRegex, FilterKey = "^(?=.*(.))(?!.*(?i)(群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|好友|\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic)(\d+)?\b|\d{4}-\d{2}-\d{2}|\dG))).*$"
+韩日节点= NameRegex, FilterKey = "^(?=.*(?i)(KR Oracle|JP Oracle|SG Oracle))^((?!(?i)(IPv6))).*$"
+甲骨节点 = NameRegex, FilterKey = "^(?=.*(?i)(Oracle|甲骨文)).*$"
+香港节点 = NameRegex, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|回国|校园|游戏|🎮|\b(GAME|GPT|IEPL)\b)).*$"
+台湾节点 = NameRegex, FilterKey = "^(?=.*((?i)🇹🇼|台湾|(\b(TW|TWN|Taiwan|Tai)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|回国|校园|游戏|🎮|\b(GAME|GPT|IEPL)\b)).*$"
+日本节点 = NameRegex, FilterKey = "^(?=.*((?i)🇯🇵|日本|川日|东京|大阪|泉日|埼玉|(\b(JP|JPN|Japan|Tokyo)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|回国|校园|游戏|🎮|\b(GAME|GPT|IEPL)\b)).*$"
+韩国节点 = NameRegex, FilterKey = "^(?=.*((?i)🇰🇷|韩国|韓|首尔|春川|(\b(KR|KOR|Korea|Seoul)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|回国|校园|游戏|🎮|\b(GAME|GPT|IEPL)\b)).*$"
+新国节点 = NameRegex, FilterKey = "^(?=.*((?i)🇸🇬|新加坡|狮|(\b(SG|SGP|Singapore|Sing)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|回国|校园|游戏|🎮|\b(GAME|GPT|IEPL)\b)).*$"
+美国节点 = NameRegex, FilterKey = "^(?=.*((?i)🇺🇸|美国|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|纽约|(\b(US|USA|United States|America|LosAngeles|NewYork)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|回国|校园|游戏|🎮|\b(GAME|GPT|IEPL)\b)).*$"
+游戏节点 = NameRegex, FilterKey = "^(?=.*((?i)游戏|🎮|\b(GAME)(\d+)?\b))(?!.*(?i)(回国|校园|甲骨文|\b(Oracle|IPv6)\b)).*$"
+全球节点 = NameRegex, FilterKey = "^(?=.*(.))(?!.*(?i)(群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|超时|收藏|福利|好友|\b(USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author|Traffic)(\d+)?\b|\d{4}-\d{2}-\d{2}|\dG))).*$"
 
 [Proxy Group]
 # --------------------------------
 # 场景策略
+韩日手动场景 = ssid, default = 韩日手动策略, cellular = 韩日手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+甲骨手动场景 = ssid, default = 甲骨手动策略, cellular = 甲骨手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
 香港手动场景 = ssid, default = 香港手动策略, cellular = 香港手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
 台湾手动场景 = ssid, default = 台湾手动策略, cellular = 台湾手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
 日本手动场景 = ssid, default = 日本手动策略, cellular = 日本手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
@@ -56,6 +56,9 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 美国手动场景 = ssid, default = 美国手动策略, cellular = 美国手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
 游戏手动场景 = ssid, default = 游戏手动策略, cellular = 游戏手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
 全球手动场景 = ssid, default = 全球手动策略, cellular = 全球手动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+
+韩日自动场景 = ssid, default = 韩日自动策略, cellular = 韩日自动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
+甲骨自动场景 = ssid, default = 甲骨自动策略, cellular = 甲骨自动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
 香港自动场景 = ssid, default = 香港自动策略, cellular = 香港自动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
 台湾自动场景 = ssid, default = 台湾自动策略, cellular = 台湾自动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
 日本自动场景 = ssid, default = 日本自动策略, cellular = 日本自动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
@@ -64,6 +67,8 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 美国自动场景 = ssid, default = 美国自动策略, cellular = 美国自动策略, "PHICOMM_5G" = DIRECT, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SSID.png
 # --------------------------------
 # 地区策略
+韩日手动策略 = select, 韩日节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Ark.png
+甲骨手动策略 = select, 甲骨节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Ark.png
 香港手动策略 = select, 香港节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
 台湾手动策略 = select, 台湾节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
 日本手动策略 = select, 日本节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
@@ -72,6 +77,9 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 美国手动策略 = select, 美国节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 游戏手动策略 = select, 游戏节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/GAME.png
 全球手动策略 = select, 全球节点, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Global.png
+
+韩日自动策略 = select, 韩日时延优选, 韩日故障转移, 韩日负载均衡, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Ark.png
+甲骨自动策略 = select, 甲骨时延优选, 甲骨故障转移, 甲骨负载均衡, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Ark.png
 香港自动策略 = select, 香港时延优选, 香港故障转移, 香港负载均衡, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
 台湾自动策略 = select, 台湾时延优选, 台湾故障转移, 台湾负载均衡, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
 日本自动策略 = select, 日本时延优选, 日本故障转移, 日本负载均衡, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
@@ -80,6 +88,8 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 美国自动策略 = select, 美国时延优选, 美国故障转移, 美国负载均衡, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 # --------------------------------
 # 自动策略
+韩日时延优选 = url-test, 韩日节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Ark.png
+甲骨时延优选 = url-test, 甲骨节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Ark.png
 香港时延优选 = url-test, 香港节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
 台湾时延优选 = url-test, 台湾节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
 日本时延优选 = url-test, 日本节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
@@ -87,6 +97,8 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 新国时延优选 = url-test, 新国节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
 美国时延优选 = url-test, 美国节点, interval = 60, tolerance = 50, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 
+韩日故障转移 = fallback, 韩日节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Ark.png
+甲骨故障转移 = fallback, 甲骨节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Ark.png
 香港故障转移 = fallback, 香港节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
 台湾故障转移 = fallback, 台湾节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
 日本故障转移 = fallback, 日本节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
@@ -94,6 +106,8 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 新国故障转移 = fallback, 新国节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
 美国故障转移 = fallback, 美国节点, interval = 60, max-timeout = 2000, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 
+韩日负载均衡 = load-balance, 韩日节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Ark.png
+甲骨负载均衡 = load-balance, 甲骨节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/Ark.png
 香港负载均衡 = load-balance, 香港节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
 台湾负载均衡 = load-balance, 台湾节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
 日本负载均衡 = load-balance, 日本节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
@@ -102,7 +116,7 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 美国负载均衡 = load-balance, 美国节点, interval = 60, max-timeout = 2000, algorithm = pcc, img-url = https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
 # --------------------------------
 # 兜底策略后备
-兜底后备策略 = fallback, 香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新国自动场景, 美国自动场景, interval = 60, max-timeout = 2000, img-url = https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
+兜底后备策略 = fallback, 韩日自动场景,甲骨自动场景,香港自动场景, 台湾自动场景, 日本自动场景, 韩国自动场景, 新国自动场景, 美国自动场景, interval = 60, max-timeout = 2000, img-url = https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/fallback.png
 [Rule]
 # Local Rule
 # Type:DOMAIN-SUFFIX,DOMAIN,DOMAIN-KEYWORD,USER-AGENT,URL-REGEX,IP-CIDR,IP-CIDR6,IP-ASN
