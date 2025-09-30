@@ -45,7 +45,7 @@ bypass-tun = 10.0.0.0/8, 100.64.0.0/10, 127.0.0.0/8, 169.254.0.0/16, 172.16.0.0/
 🫰 其它 🐢 = NameRegex, FilterKey = "^(?=.*(Oracle|甲骨文))^((?!(IPv6|ipv6|KR|JP|SG)).)*$"
 🫰 游戏 🕹️ = NameRegex, FilterKey = "^(.*)^((?!(Oracle|甲骨文|IPv6|ipv6)).)*$"
 🫰 AI 🏡 = NameRegex, FilterKey = "^(.*)^((?!(Oracle|甲骨文|IPv6|ipv6|香港|HK|🇭🇰)).)*$"
-🔝 香港 = NameRegex, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*((?i)家宽|家庭|住宅|原生|专线|🎮|(\b(GAME|GPT|IEPL)\b))).*$"
+🔝 香港 = NameRegex, FilterKey = "^(?=.*((?i)🇭🇰|香港|(\b(HK|HKG|Hong)(\d+)?\b)))(?!.*(?i)(家宽|家庭|住宅|原生|专线|🎮|\b(GAME|GPT|IEPL)\b)).*$"
 🔝 台湾 = NameRegex, FilterKey = "^(?=.*(广台|台湾|TW|Tai Wan|🇹🇼|🇨🇳|TaiWan|Taiwan))^((?!(家宽|家庭|住宅|原生|IEPL|专线|gpt|GPT|Gpt)).)*$"
 
 🫰 手动全部 = NameRegex, FilterKey = ".*"
