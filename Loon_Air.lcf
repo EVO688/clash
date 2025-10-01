@@ -139,7 +139,7 @@ FINAL, 兜底后备策略
 
 [Remote Rule]
 https://rule.kelee.one/Loon/Telegram.lsr, policy = 兜底后备策略, tag = Telegram, enabled = true
-https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy = 台湾手动场景, tag = AI, enabled = true
+https://kelee.one/Tool/Loon/Lsr/AI.lsr, policy = 台湾自动场景, tag = AI, enabled = true
 https://kelee.one/Tool/Loon/Lsr/AppleAccount.lsr, policy = DIRECT, tag = Apple Account, enabled = true
 https://kelee.one/Tool/Loon/Lsr/AppStore.lsr, policy = DIRECT, tag = App Store, enabled = false
 https://rule.kelee.one/Loon/GoogleVoice.lsr, policy = 韩国自动策略, tag = Voice, enabled = true
