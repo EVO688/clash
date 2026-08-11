@@ -29,12 +29,14 @@ IP-CIDR,142.250.0.0/16,no-resolve
 # 域名关键字匹配
 # DOMAIN-KEYWORD,roblox
 DOMAIN-KEYWORD,vanced
+DOMAIN-KEYWORD,z-library
+
 
 # 域名后缀匹配-其他网站
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,v2board.com
 DOMAIN-SUFFIX,hostloc.com
-DOMAIN-SUFFIX,v2rayssr.com
+DOMAIN-SUFFIX,z-library.sk
 DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,cacapex.com
 DOMAIN-SUFFIX,1lib.sk
