@@ -9,3 +9,53 @@ DOMAIN,bigdata.adfuture.cn
 DOMAIN,adfuture.cn
 DOMAIN,adsunflower.com
 DOMAIN,adinfo.ra1.xlmc.sec.miui.com
+# ==========================================
+# 1. 地图类：高德地图 & 百度地图（精准拦截开屏及图层牛皮癣）
+# ==========================================
+DOMAIN,adash.amap.com
+DOMAIN,adashbc.amap.com
+DOMAIN,gofun.amap.com
+DOMAIN,oper.amap.com
+DOMAIN,optimus-ads.amap.com
+DOMAIN,page.amap.com
+DOMAIN,adashx.ut.amap.com
+DOMAIN,heye-center.amap.com
+DOMAIN,afp.baidu.com
+DOMAIN,click.hm.baidu.com
+DOMAIN,cm.baidu.com
+DOMAIN,hm.baidu.com
+DOMAIN,hmma.baidu.com
+
+# ==========================================
+# 2. 阿里系：菜鸟、闲鱼、淘宝（拦截阿里妈妈广告联盟、友盟追踪）
+# ==========================================
+DOMAIN-SUFFIX,alimama.com
+DOMAIN-SUFFIX,alimama.net
+DOMAIN-SUFFIX,umeng.com
+DOMAIN-SUFFIX,umengcloud.com
+DOMAIN,adash.m.taobao.com
+DOMAIN,adash.taobao.com
+DOMAIN,wms.cainiao.com
+DOMAIN,guides-analytics.cainiao.com
+DOMAIN,mtop.cainiao.com
+
+# ==========================================
+# 3. 娱乐与电商：网易云音乐、拼多多、小红书
+# ==========================================
+DOMAIN-SUFFIX,iad.163.com
+DOMAIN,iadmusic.163.com
+DOMAIN,iadmusicmat.163.com
+DOMAIN,g.pinduoduo.com
+DOMAIN,t-g.pinduoduo.com
+DOMAIN,ads.pinduoduo.com
+DOMAIN,analytics.xiaohongshu.com
+DOMAIN,ads-img-qc.xiaohongshu.com
+DOMAIN,ads-video-qc.xiaohongshu.com
+
+# ==========================================
+# 4. 生活服务：美团、美团外卖（拦截美团移动广告与数据分析中心）
+# ==========================================
+DOMAIN,analytics.meituan.net
+DOMAIN,meituan.node.adtrack.com
+DOMAIN,vapi.meituan.com
+DOMAIN,ad.meituan.com
