@@ -9,9 +9,37 @@ DOMAIN,bigdata.adfuture.cn
 DOMAIN,adfuture.cn
 DOMAIN,adsunflower.com
 DOMAIN,adinfo.ra1.xlmc.sec.miui.com
-# ==========================================
-# 1. 地图类：高德地图 & 百度地图（精准拦截开屏及图层牛皮癣）
-# ==========================================
+# =========================================================
+# 11 款主流大厂 App 终极补漏去广告列表（无证书、免重写、全域名阻断版）
+# =========================================================
+
+# 🟢【网易云音乐】终极去广告补漏（彻底切断网易公共全站广告 CDN）
+# ---------------------------------------------------------
+DOMAIN,iadmusic.163.com
+DOMAIN,iadmusicmat.163.com
+DOMAIN,iadmusicmatvideo.163.com
+DOMAIN-SUFFIX,iad.163.com
+DOMAIN-SUFFIX,netease.im
+DOMAIN,httpdns.n.netease.com
+DOMAIN,mam.netease.com
+DOMAIN,gorgon.youdao.com
+
+# 🟢【百度地图】终极去广告补漏（精准拦截百度通用移动联盟与高精度分析中心）
+# ---------------------------------------------------------
+DOMAIN,afp.baidu.com
+DOMAIN,click.hm.baidu.com
+DOMAIN,cm.baidu.com
+DOMAIN,hm.baidu.com
+DOMAIN,hmma.baidu.com
+DOMAIN-SUFFIX,baidustatic.com
+DOMAIN-SUFFIX,bdimg.com
+DOMAIN,mobads.baidu.com
+DOMAIN,mobads-logs.baidu.com
+DOMAIN,nsclick.baidu.com
+DOMAIN,wup.baidu.com
+
+# 🟢【高德地图】高频营销与追踪拦截（绝不误杀导航核心数据）
+# ---------------------------------------------------------
 DOMAIN,adash.amap.com
 DOMAIN,adashbc.amap.com
 DOMAIN,gofun.amap.com
@@ -20,42 +48,37 @@ DOMAIN,optimus-ads.amap.com
 DOMAIN,page.amap.com
 DOMAIN,adashx.ut.amap.com
 DOMAIN,heye-center.amap.com
-DOMAIN,afp.baidu.com
-DOMAIN,click.hm.baidu.com
-DOMAIN,cm.baidu.com
-DOMAIN,hm.baidu.com
-DOMAIN,hmma.baidu.com
 
-# ==========================================
-# 2. 阿里系：菜鸟、闲鱼、淘宝（拦截阿里妈妈广告联盟、友盟追踪）
-# ==========================================
+# 🟢【菜鸟裹裹 & 闲鱼 & 淘宝】阻断底层公共广告 SDK 与友盟追踪
+# ---------------------------------------------------------
 DOMAIN-SUFFIX,alimama.com
 DOMAIN-SUFFIX,alimama.net
 DOMAIN-SUFFIX,umeng.com
 DOMAIN-SUFFIX,umengcloud.com
 DOMAIN,adash.m.taobao.com
 DOMAIN,adash.taobao.com
+DOMAIN,api-gw.cainiao.com
+DOMAIN,guoguo-app.cainiao.com
 DOMAIN,wms.cainiao.com
 DOMAIN,guides-analytics.cainiao.com
-DOMAIN,mtop.cainiao.com
+DOMAIN-SUFFIX,cainiao.com.cn
 
-# ==========================================
-# 3. 娱乐与电商：网易云音乐、拼多多、小红书
-# ==========================================
-DOMAIN-SUFFIX,iad.163.com
-DOMAIN,iadmusic.163.com
-DOMAIN,iadmusicmat.163.com
-DOMAIN,g.pinduoduo.com
-DOMAIN,t-g.pinduoduo.com
-DOMAIN,ads.pinduoduo.com
-DOMAIN,analytics.xiaohongshu.com
-DOMAIN,ads-img-qc.xiaohongshu.com
-DOMAIN,ads-video-qc.xiaohongshu.com
-
-# ==========================================
-# 4. 生活服务：美团、美团外卖（拦截美团移动广告与数据分析中心）
-# ==========================================
+# 🟢【生活服务类】美团 & 美团外卖广告及行为追踪
+# ---------------------------------------------------------
 DOMAIN,analytics.meituan.net
 DOMAIN,meituan.node.adtrack.com
 DOMAIN,vapi.meituan.com
 DOMAIN,ad.meituan.com
+
+# 🟢【电商与社区】小红书、拼多多、抖音商城（重点拦截外包开屏及追踪）
+# ---------------------------------------------------------
+DOMAIN,ads.xiaohongshu.com
+DOMAIN,analytics.xiaohongshu.com
+DOMAIN,ads-img-qc.xiaohongshu.com
+DOMAIN,ads-video-qc.xiaohongshu.com
+DOMAIN,deer.xiaohongshu.com
+DOMAIN,shis.xiaohongshu.com
+DOMAIN,log-upload.xiaohongshu.com
+DOMAIN,g.pinduoduo.com
+DOMAIN,t-g.pinduoduo.com
+DOMAIN,ads.pinduoduo.com
